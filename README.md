@@ -1,6 +1,6 @@
 # One-Step Flow Matching for PDOI Reconstruction
 
-This repository provides a PyTorch implementation of one-step conditional MeanFlow for PDOI image reconstruction. The model reconstructs a single-channel grayscale image from a nine-channel measurement stored in a MATLAB `.mat` file. It supports model training, inference without ground truth, quantitative evaluation with PSNR, EMA checkpoints, and distributed training through Hugging Face Accelerate.
+This repository provides a PyTorch implementation of "Physics-informed Learning for Ptychography-inspired Diffuse Optical Imaging Through Biological Tissue". The model reconstructs a single-channel grayscale image from a nine-channel measurement stored in a MATLAB `.mat` file. It supports model training, inference without ground truth, quantitative evaluation with PSNR, EMA checkpoints, and distributed training through Hugging Face Accelerate.
 
 ## Method overview
 
