@@ -20,7 +20,7 @@ The default configuration is:
 | Learning rate | `1e-4` |
 | EMA decay | `0.995` |
 
-![MeanFlow reconstruction pipeline](figures/meanflow_uie_algorithm_flowchart.svg)
+![MeanFlow reconstruction pipeline](figures/1.png)
 
 ## Get started
 
