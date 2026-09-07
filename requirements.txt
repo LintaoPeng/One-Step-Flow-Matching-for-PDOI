@@ -1,0 +1,12 @@
+torch>=2.0
+torchvision>=0.15
+numpy>=1.23
+scipy>=1.9
+opencv-python>=4.7
+Pillow>=9.4
+timm>=0.9
+einops>=0.6
+accelerate>=0.21
+ema-pytorch>=0.2.3
+tqdm>=4.65
+scikit-image>=0.20
