@@ -6,19 +6,6 @@ This repository provides a PyTorch implementation of one-step conditional MeanFl
 
 The reconstruction network uses a conditional residual U-Net as its velocity-field model. During inference, MeanFlow starts from the normalized measurement condition with a small random-noise component and predicts the reconstructed image in one generation step from `t = 1` to `t = 0`.
 
-The default configuration is:
-
-| Setting | Value |
-| --- | --- |
-| Measurement channels | 9 |
-| Reconstructed image channels | 1 |
-| Image size | 64 × 64 |
-| MAT variable name | `mea1` |
-| U-Net channel multipliers | `(1, 2, 4, 8)` |
-| Training steps | 600,000 |
-| Batch size | 32 |
-| Learning rate | `1e-4` |
-| EMA decay | `0.995` |
 
 ![MeanFlow reconstruction pipeline](figures/1.png)
 
