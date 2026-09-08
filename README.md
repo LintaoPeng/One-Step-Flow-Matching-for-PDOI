@@ -89,7 +89,7 @@ Images larger than 64 × 64 are center-cropped. Images smaller than the configur
 
 ## Pretrained checkpoint
 
-Place the pretrained checkpoint at:
+You can download the pre-trained weights from [GoogleDrive](https://drive.google.com/file/d/1-mU_FLIhcEOs2u_uGeLy_9GtKHFoXpX4/view?usp=sharing). Place the pretrained checkpoint at:
 
 ```text
 ckpt_single_dataset/model-best.pt
